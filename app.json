@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "exp",
     "name": "loginV2",
     "slug": "loginV2",
     "version": "1.0.0",
@@ -18,13 +19,16 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.axlgio.loginV2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["@react-native-google-signin/google-signin"]
   }
 }

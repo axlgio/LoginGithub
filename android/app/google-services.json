@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932131242155",
+    "project_id": "login-15cf4",
+    "storage_bucket": "login-15cf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932131242155:android:71d810423241db6004f7ee",
+        "android_client_info": {
+          "package_name": "com.axlgio.loginV2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932131242155-qlsrocddj4qo30dvl82vnho1jij1027i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5eYjUR6hzKTiSUBaB1yHzFEfjDHXrPsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932131242155-j8fsni6hj8qrj1jjboofc946p7l1gvru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
