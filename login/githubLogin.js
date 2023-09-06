@@ -48,7 +48,7 @@ export default function GithubLogin() {
     return (
         <View>
             <Button 
-                title='LOGIN WIT GITHUB' 
+                title='Iniciar Sesión con Github' 
                 onPress={ async ()=> {
                     await promptAsync({ windowName: "Code" });
                 }}

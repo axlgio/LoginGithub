@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.axlgio.loginV2"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
@@ -27,7 +28,8 @@
       "package": "com.axlgio.loginV2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "scheme": ["loginV2", "fb726576839482978"]
     },
     "plugins": ["@react-native-google-signin/google-signin"]
   }
