@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View , Div} from 'react-native';
 import { makeRedirectUri, useAuthRequest } from "expo-auth-session";
 import * as React from "react";
+import GithubLogin from './login/githubLogin';
 import GoogleLoginScreen from './login/GoogleLoginScreen';
 import FacebookLoginScreen from './login/FacebookLoginScreen';
-import GithubLogin from './login/GithubLogin'
 
 export default function App() {
 
@@ -17,7 +17,7 @@ export default function App() {
           <FacebookLoginScreen style={styles.boton2}/>
         </View>
         <View style={styles.boton}>
-          <GithubLogin style={styles.boton3}/>
+        <GithubLogin style={styles.boton3} />
         </View>
     </View>
   );
@@ -35,15 +35,12 @@ const styles = StyleSheet.create({
   },
   boton1:{
     margin:20,
-    color:"red"
   },
   boton2:{
     margin:20,
-    color:"blue"
   },
   boton3:{
     margin:20,
-    color:"black"
   },
 });
 
